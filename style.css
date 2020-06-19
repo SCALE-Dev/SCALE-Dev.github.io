@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  all: unset;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.intro {
+  background-image: url(./image/intro_background.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header .logo {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.logo img {
+  width: 200px;
+  cursor: pointer;
+}
+
+header ul {
+  margin-right: 50px;
+}
+
+header a{
+  all: unset;
+  color: white;
+  font-size: 32px;
+}
+
+header li.nav {
+  cursor: pointer;
+  margin: 60px;
+}
+
+header li.nav:hover {
+  text-decoration: underline;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 128px;
+}
+
+.mission {
+  background-image: url(./image/desc_background.png);
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: white;
+  font-size: 28px;
+}
